@@ -37,6 +37,6 @@ const videoSchema = new Schema({
     }
 },{timestamps:true})
 
-videoSchema.plugin(mongooseAggregatePaginate);
+videoSchema.plugin(mongooseAggregatePaginate);    // videoSchema me pagination wali functionality add kr rhe hai taki watch history me use kr skey
 
 export const Video = mongoose.model("Video",videoSchema)

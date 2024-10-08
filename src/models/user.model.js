@@ -93,13 +93,5 @@ userSchema.methods.generateRefreshToken = function(){
 export const User = mongoose.model("User", userSchema)
 
 
-<<<<<<< HEAD
 // ye jo User export kiya hai yeh database se directly
 // contact kar skta hai qki yeh model mongosoe ne  create kiya hai
-=======
-
-export const User = mongoose.model("User",userSchema);
-
-
-//models
->>>>>>> 3ac14a26f89d0953cb0ca37e7b408225ccdb6c68
